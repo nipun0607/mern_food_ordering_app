@@ -61,8 +61,11 @@ export const useUpdateMyUser=()=>{
                 headers:{
                     Authorization:`Bearer ${accessToken}`,
                     "Content-Type":"application/json",
+
     
                 },
+               
+                
                 body:JSON.stringify(formData),
     
             });
